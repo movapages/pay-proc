@@ -3,7 +3,7 @@
 
 #### Demo Video Clip
 
-<video width="680" src="demo/pay-proc.mp4" controls title="Demo Clip"></video>
+![PoC](demo/pay-proc.gif)
 
 
 <hr />
