@@ -1,4 +1,19 @@
-# Getting Started with Create React App
+## The PoC React SPA
+
+
+#### Demo Video Clip
+
+<video width="680" src="demo/pay-proc.mp4" controls title="Demo Clip"></video>
+
+
+<hr />
+
+#### PoC Diagram
+
+![PoC](poc/pay-poc.png)
+
+
+## Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

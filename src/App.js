@@ -29,6 +29,21 @@ function App() {
 
 export default App;
 
+const payProviders = [
+  {id: 1,
+    markupTitle: <h4 className="text-3xl text-blue-500">Stripe</h4>,
+    title: 'Stripe'
+  },
+  {id: 2,
+    markupTitle: <h4 className="text-3xl"><span className="text-blue-700">Pay</span><span className="text-blue-300">Pal</span></h4>,
+    title: 'PayPal'
+  },
+  {id: 3,
+    markupTitle: <h4 className="text-3xl text-blue-500"><span className="text-black">Brain</span><span className="text-red-500">tree</span></h4>,
+    title: 'Braintree'
+  },
+];
+
 // const payProviders = [
 //   {id: 1,
 //     markupTitle: <h4 className="text-3xl">Stripe</h4>,
@@ -49,17 +64,3 @@ export default App;
 //   },
 // ];
 
-const payProviders = [
-  {id: 1,
-    markupTitle: <h4 className="text-3xl text-blue-500">Stripe</h4>,
-    title: 'Stripe'
-  },
-  {id: 2,
-    markupTitle: <h4 className="text-3xl"><span className="text-blue-700">Pay</span><span className="text-blue-300">Pal</span></h4>,
-    title: 'PayPal'
-  },
-  {id: 3,
-    markupTitle: <h4 className="text-3xl text-blue-500"><span className="text-black">Brain</span><span className="text-red-500">tree</span></h4>,
-    title: 'Braintree'
-  },
-];
